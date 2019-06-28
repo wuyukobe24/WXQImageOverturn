@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F12E016D22C60D7200631959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E016C22C60D7200631959 /* AppDelegate.m */; };
-		F12E017022C60D7200631959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E016F22C60D7200631959 /* ViewController.m */; };
 		F12E017322C60D7200631959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12E017122C60D7200631959 /* Main.storyboard */; };
 		F12E017522C60D7400631959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12E017422C60D7400631959 /* Assets.xcassets */; };
 		F12E017822C60D7400631959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12E017622C60D7400631959 /* LaunchScreen.storyboard */; };
 		F12E017B22C60D7400631959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E017A22C60D7400631959 /* main.m */; };
 		F12E018522C60D7400631959 /* WXQImageOverturnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E018422C60D7400631959 /* WXQImageOverturnTests.m */; };
 		F12E019022C60D7400631959 /* WXQImageOverturnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E018F22C60D7400631959 /* WXQImageOverturnUITests.m */; };
+		F12E01A022C60DD000631959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E019E22C60DD000631959 /* ViewController.m */; };
+		F12E01A422C60E7600631959 /* FrontView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E01A322C60E7600631959 /* FrontView.m */; };
+		F12E01A722C60E8300631959 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E01A622C60E8300631959 /* BackView.m */; };
+		F12E01AA22C60E9500631959 /* GuessView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E01A922C60E9500631959 /* GuessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 		F12E016822C60D7200631959 /* WXQImageOverturn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXQImageOverturn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12E016B22C60D7200631959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F12E016C22C60D7200631959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F12E016E22C60D7200631959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F12E016F22C60D7200631959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F12E017222C60D7200631959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F12E017422C60D7400631959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12E017722C60D7400631959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		F12E018B22C60D7400631959 /* WXQImageOverturnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXQImageOverturnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12E018F22C60D7400631959 /* WXQImageOverturnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXQImageOverturnUITests.m; sourceTree = "<group>"; };
 		F12E019122C60D7400631959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12E019E22C60DD000631959 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F12E019F22C60DD000631959 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F12E01A222C60E7600631959 /* FrontView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrontView.h; sourceTree = "<group>"; };
+		F12E01A322C60E7600631959 /* FrontView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrontView.m; sourceTree = "<group>"; };
+		F12E01A522C60E8300631959 /* BackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
+		F12E01A622C60E8300631959 /* BackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
+		F12E01A822C60E9500631959 /* GuessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessView.h; sourceTree = "<group>"; };
+		F12E01A922C60E9500631959 /* GuessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,8 @@
 			children = (
 				F12E016B22C60D7200631959 /* AppDelegate.h */,
 				F12E016C22C60D7200631959 /* AppDelegate.m */,
-				F12E016E22C60D7200631959 /* ViewController.h */,
-				F12E016F22C60D7200631959 /* ViewController.m */,
+				F12E01A122C60DE300631959 /* View */,
+				F12E019D22C60DD000631959 /* ViewController */,
 				F12E017122C60D7200631959 /* Main.storyboard */,
 				F12E017422C60D7400631959 /* Assets.xcassets */,
 				F12E017622C60D7400631959 /* LaunchScreen.storyboard */,
@@ -130,6 +139,28 @@
 				F12E019122C60D7400631959 /* Info.plist */,
 			);
 			path = WXQImageOverturnUITests;
+			sourceTree = "<group>";
+		};
+		F12E019D22C60DD000631959 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F12E019F22C60DD000631959 /* ViewController.h */,
+				F12E019E22C60DD000631959 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F12E01A122C60DE300631959 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F12E01A222C60E7600631959 /* FrontView.h */,
+				F12E01A322C60E7600631959 /* FrontView.m */,
+				F12E01A522C60E8300631959 /* BackView.h */,
+				F12E01A622C60E8300631959 /* BackView.m */,
+				F12E01A822C60E9500631959 /* GuessView.h */,
+				F12E01A922C60E9500631959 /* GuessView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F12E017022C60D7200631959 /* ViewController.m in Sources */,
 				F12E017B22C60D7400631959 /* main.m in Sources */,
+				F12E01A022C60DD000631959 /* ViewController.m in Sources */,
+				F12E01AA22C60E9500631959 /* GuessView.m in Sources */,
+				F12E01A422C60E7600631959 /* FrontView.m in Sources */,
+				F12E01A722C60E8300631959 /* BackView.m in Sources */,
 				F12E016D22C60D7200631959 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
