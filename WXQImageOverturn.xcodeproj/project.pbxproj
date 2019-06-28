@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12E016D22C60D7200631959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E016C22C60D7200631959 /* AppDelegate.m */; };
+		F12E017022C60D7200631959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E016F22C60D7200631959 /* ViewController.m */; };
+		F12E017322C60D7200631959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12E017122C60D7200631959 /* Main.storyboard */; };
+		F12E017522C60D7400631959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12E017422C60D7400631959 /* Assets.xcassets */; };
+		F12E017822C60D7400631959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12E017622C60D7400631959 /* LaunchScreen.storyboard */; };
+		F12E017B22C60D7400631959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E017A22C60D7400631959 /* main.m */; };
+		F12E018522C60D7400631959 /* WXQImageOverturnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E018422C60D7400631959 /* WXQImageOverturnTests.m */; };
+		F12E019022C60D7400631959 /* WXQImageOverturnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E018F22C60D7400631959 /* WXQImageOverturnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12E018122C60D7400631959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12E016022C60D7200631959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12E016722C60D7200631959;
+			remoteInfo = WXQImageOverturn;
+		};
+		F12E018C22C60D7400631959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12E016022C60D7200631959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12E016722C60D7200631959;
+			remoteInfo = WXQImageOverturn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F12E016822C60D7200631959 /* WXQImageOverturn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXQImageOverturn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12E016B22C60D7200631959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F12E016C22C60D7200631959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F12E016E22C60D7200631959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F12E016F22C60D7200631959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F12E017222C60D7200631959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12E017422C60D7400631959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12E017722C60D7400631959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12E017922C60D7400631959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12E017A22C60D7400631959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F12E018022C60D7400631959 /* WXQImageOverturnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXQImageOverturnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12E018422C60D7400631959 /* WXQImageOverturnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXQImageOverturnTests.m; sourceTree = "<group>"; };
+		F12E018622C60D7400631959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12E018B22C60D7400631959 /* WXQImageOverturnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXQImageOverturnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12E018F22C60D7400631959 /* WXQImageOverturnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXQImageOverturnUITests.m; sourceTree = "<group>"; };
+		F12E019122C60D7400631959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12E016522C60D7200631959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12E017D22C60D7400631959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12E018822C60D7400631959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12E015F22C60D7200631959 = {
+			isa = PBXGroup;
+			children = (
+				F12E016A22C60D7200631959 /* WXQImageOverturn */,
+				F12E018322C60D7400631959 /* WXQImageOverturnTests */,
+				F12E018E22C60D7400631959 /* WXQImageOverturnUITests */,
+				F12E016922C60D7200631959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12E016922C60D7200631959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12E016822C60D7200631959 /* WXQImageOverturn.app */,
+				F12E018022C60D7400631959 /* WXQImageOverturnTests.xctest */,
+				F12E018B22C60D7400631959 /* WXQImageOverturnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12E016A22C60D7200631959 /* WXQImageOverturn */ = {
+			isa = PBXGroup;
+			children = (
+				F12E016B22C60D7200631959 /* AppDelegate.h */,
+				F12E016C22C60D7200631959 /* AppDelegate.m */,
+				F12E016E22C60D7200631959 /* ViewController.h */,
+				F12E016F22C60D7200631959 /* ViewController.m */,
+				F12E017122C60D7200631959 /* Main.storyboard */,
+				F12E017422C60D7400631959 /* Assets.xcassets */,
+				F12E017622C60D7400631959 /* LaunchScreen.storyboard */,
+				F12E017922C60D7400631959 /* Info.plist */,
+				F12E017A22C60D7400631959 /* main.m */,
+			);
+			path = WXQImageOverturn;
+			sourceTree = "<group>";
+		};
+		F12E018322C60D7400631959 /* WXQImageOverturnTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12E018422C60D7400631959 /* WXQImageOverturnTests.m */,
+				F12E018622C60D7400631959 /* Info.plist */,
+			);
+			path = WXQImageOverturnTests;
+			sourceTree = "<group>";
+		};
+		F12E018E22C60D7400631959 /* WXQImageOverturnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F12E018F22C60D7400631959 /* WXQImageOverturnUITests.m */,
+				F12E019122C60D7400631959 /* Info.plist */,
+			);
+			path = WXQImageOverturnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12E016722C60D7200631959 /* WXQImageOverturn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12E019422C60D7400631959 /* Build configuration list for PBXNativeTarget "WXQImageOverturn" */;
+			buildPhases = (
+				F12E016422C60D7200631959 /* Sources */,
+				F12E016522C60D7200631959 /* Frameworks */,
+				F12E016622C60D7200631959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXQImageOverturn;
+			productName = WXQImageOverturn;
+			productReference = F12E016822C60D7200631959 /* WXQImageOverturn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12E017F22C60D7400631959 /* WXQImageOverturnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12E019722C60D7400631959 /* Build configuration list for PBXNativeTarget "WXQImageOverturnTests" */;
+			buildPhases = (
+				F12E017C22C60D7400631959 /* Sources */,
+				F12E017D22C60D7400631959 /* Frameworks */,
+				F12E017E22C60D7400631959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12E018222C60D7400631959 /* PBXTargetDependency */,
+			);
+			name = WXQImageOverturnTests;
+			productName = WXQImageOverturnTests;
+			productReference = F12E018022C60D7400631959 /* WXQImageOverturnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F12E018A22C60D7400631959 /* WXQImageOverturnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12E019A22C60D7400631959 /* Build configuration list for PBXNativeTarget "WXQImageOverturnUITests" */;
+			buildPhases = (
+				F12E018722C60D7400631959 /* Sources */,
+				F12E018822C60D7400631959 /* Frameworks */,
+				F12E018922C60D7400631959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12E018D22C60D7400631959 /* PBXTargetDependency */,
+			);
+			name = WXQImageOverturnUITests;
+			productName = WXQImageOverturnUITests;
+			productReference = F12E018B22C60D7400631959 /* WXQImageOverturnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12E016022C60D7200631959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WXQ;
+				TargetAttributes = {
+					F12E016722C60D7200631959 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F12E017F22C60D7400631959 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F12E016722C60D7200631959;
+					};
+					F12E018A22C60D7400631959 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F12E016722C60D7200631959;
+					};
+				};
+			};
+			buildConfigurationList = F12E016322C60D7200631959 /* Build configuration list for PBXProject "WXQImageOverturn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12E015F22C60D7200631959;
+			productRefGroup = F12E016922C60D7200631959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12E016722C60D7200631959 /* WXQImageOverturn */,
+				F12E017F22C60D7400631959 /* WXQImageOverturnTests */,
+				F12E018A22C60D7400631959 /* WXQImageOverturnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12E016622C60D7200631959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E017822C60D7400631959 /* LaunchScreen.storyboard in Resources */,
+				F12E017522C60D7400631959 /* Assets.xcassets in Resources */,
+				F12E017322C60D7200631959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12E017E22C60D7400631959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12E018922C60D7400631959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12E016422C60D7200631959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E017022C60D7200631959 /* ViewController.m in Sources */,
+				F12E017B22C60D7400631959 /* main.m in Sources */,
+				F12E016D22C60D7200631959 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12E017C22C60D7400631959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E018522C60D7400631959 /* WXQImageOverturnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12E018722C60D7400631959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12E019022C60D7400631959 /* WXQImageOverturnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12E018222C60D7400631959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12E016722C60D7200631959 /* WXQImageOverturn */;
+			targetProxy = F12E018122C60D7400631959 /* PBXContainerItemProxy */;
+		};
+		F12E018D22C60D7400631959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12E016722C60D7200631959 /* WXQImageOverturn */;
+			targetProxy = F12E018C22C60D7400631959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F12E017122C60D7200631959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12E017222C60D7200631959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12E017622C60D7400631959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12E017722C60D7400631959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12E019222C60D7400631959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F12E019322C60D7400631959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12E019522C60D7400631959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WXQImageOverturn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxq.WXQImageOverturn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F12E019622C60D7400631959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WXQImageOverturn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxq.WXQImageOverturn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F12E019822C60D7400631959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WXQImageOverturnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxq.WXQImageOverturnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXQImageOverturn.app/WXQImageOverturn";
+			};
+			name = Debug;
+		};
+		F12E019922C60D7400631959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WXQImageOverturnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxq.WXQImageOverturnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXQImageOverturn.app/WXQImageOverturn";
+			};
+			name = Release;
+		};
+		F12E019B22C60D7400631959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WXQImageOverturnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxq.WXQImageOverturnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXQImageOverturn;
+			};
+			name = Debug;
+		};
+		F12E019C22C60D7400631959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WXQImageOverturnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxq.WXQImageOverturnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXQImageOverturn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12E016322C60D7200631959 /* Build configuration list for PBXProject "WXQImageOverturn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12E019222C60D7400631959 /* Debug */,
+				F12E019322C60D7400631959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12E019422C60D7400631959 /* Build configuration list for PBXNativeTarget "WXQImageOverturn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12E019522C60D7400631959 /* Debug */,
+				F12E019622C60D7400631959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12E019722C60D7400631959 /* Build configuration list for PBXNativeTarget "WXQImageOverturnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12E019822C60D7400631959 /* Debug */,
+				F12E019922C60D7400631959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12E019A22C60D7400631959 /* Build configuration list for PBXNativeTarget "WXQImageOverturnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12E019B22C60D7400631959 /* Debug */,
+				F12E019C22C60D7400631959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12E016022C60D7200631959 /* Project object */;
+}
